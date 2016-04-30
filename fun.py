@@ -10,16 +10,23 @@ def dategenerator(start, end):
         current += timedelta(days=1)
 
 def everyday(date):
-    number = random.randint(1, 50)
+    number = random.randint(1, 10)
     datestr = str(date)
-    for num in xrange(number):
+    for num in xrange(1, number):
         f = open("1.txt", "w")
-        f.write(datestr)
+        writenumber = random.uniform(0, 100)
+        f.write(str(writenumber))
+        f.close()
         addfile = "git add 1.txt"
         commit = "git commit --date=%s -m \"%s modify test\"" % (datestr, datestr)
-        # print commit, number
+
+        # print addfile
+        # print commit
+
         os.system(addfile)
         os.system(commit)
 
-for date in dategenerator(date(2015, 1, 1), date(2015, 3, 1)):
+    print datestr + "commit 了" + str(number) + "次"
+
+for date in dategenerator(date(2016, 2, 1), date(2016, 4, 1)):
     everyday(date)
