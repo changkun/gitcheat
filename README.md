@@ -1,12 +1,21 @@
-# GitContributeTest
-A simple python script to fake GitHub contribute.
+# gitcheat😱
+
+gitcheat is a simple python script to cheat GitHub contribute map.
 
 ## Usage
-#### clone
+
+#### Clone
+
 ```bash
 git clone https://github.com/changkun/GitContributeTest.git
 ```
-#### run
+#### Run
+
+Modify `fun.py`, then
+
 ```python
 python fun.py
 ```
+
+## License
+gitcheat is distributed under the GNU General Public License v3.0 (GPLv3).
