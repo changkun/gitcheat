@@ -22,7 +22,7 @@ def everyday(date):
         writenumber = random.uniform(0, 100)
         f.write(str(writenumber))
         f.close()
-        addfile = "git add 1.txt"
+        addfile = "git add cheat.txt"
         commit  = "git commit --date=%s -m \"%s modify test\"" % (datestr, datestr)
 
         os.system(addfile)
