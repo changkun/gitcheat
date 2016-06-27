@@ -1,21 +1,23 @@
 # gitcheat😱
 
-gitcheat is a simple python script to cheat GitHub contribute map.
+`gitcheat` is a simple python script to cheat GitHub contribute map.
 
 ## Usage
 
 #### Clone
 
 ```bash
-git clone https://github.com/changkun/GitContributeTest.git
+git clone https://github.com/changkun/gitcheat.git
 ```
 #### Run
 
-Modify `fun.py`, then
+Example:
 
-```python
-python fun.py
 ```
+python gitcheat.py 2016-05-01 2016-05-30
+```
+
+Have fun😜..
 
 ## License
 gitcheat is distributed under the GNU General Public License v3.0 (GPLv3).
